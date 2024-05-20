@@ -24,7 +24,7 @@ const Home = () => {
     }
 
     return (
-        <SafeAreaView className="bg-primary">
+        <SafeAreaView className="bg-primary h-full">
             {/* FlatList is used to render a list of components */}
             {/* A ScrollView would only allow vertical scrolling! */}
             <FlatList
